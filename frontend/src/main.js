@@ -13,7 +13,6 @@ Vue.use(VueAxios, {
   secured: securedAxiosInstance,
   plain: plainAxiosInstance
 })
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

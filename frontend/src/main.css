@@ -1,0 +1,7 @@
+.input:focus {
+  @apply outline-none bg-white border-grey;
+}
+
+.label {
+  @apply block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2;
+}

@@ -1,7 +1,7 @@
 /* eslint-disable-next-line no-unused-vars */
 import axios from 'axios'
 
-const API_URL = 'http://localhost:3000'
+const API_URL = 'http://127.0.0.1:3000'
 
 const securedAxiosInstance = axios.create({
   baseURL: API_URL,
